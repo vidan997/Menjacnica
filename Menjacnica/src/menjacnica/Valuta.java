@@ -1,12 +1,11 @@
 package menjacnica;
 
-import java.util.GregorianCalendar;
 
 public class Valuta {
 	
 	private String naziv;
 	private String skraceniNaziv;
-	private GregorianCalendar datum;
+	private String datum;
 	
 	public String getNaziv() {
 		return naziv;
@@ -20,10 +19,10 @@ public class Valuta {
 	public void setSkraceniNaziv(String skraceniNaziv) {
 		this.skraceniNaziv = skraceniNaziv;
 	}
-	public GregorianCalendar getDatum() {
+	public String getDatum() {
 		return datum;
 	}
-	public void setDatum(GregorianCalendar datum) {
+	public void setDatum(String datum) {
 		this.datum = datum;
 	}
 	
