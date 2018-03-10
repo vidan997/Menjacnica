@@ -1,13 +1,18 @@
 package menjacnica;
 
+import java.util.LinkedList;
+
 import menjacnica.interfejs.menjacnicainterfejs;
 
 public class RadMenjacnice implements menjacnicainterfejs {
 
-	@Override
+	LinkedList<Valuta> valute = new LinkedList<Valuta>();
+	
 	public void dodavanjeValute(String datum, String naziv, int srednjiKurs, int prodajniKurs, int kupovniKurs) {
-		// TODO Auto-generated method stub
-
+		Valuta valuta = new Kurs();
+		valuta.setDatum(datum);
+		valuta.setNaziv(naziv);
+		valuta.setSkraceniNaziv(naziv);
 	}
 
 	@Override
