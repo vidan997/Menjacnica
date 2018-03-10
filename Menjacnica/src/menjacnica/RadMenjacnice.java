@@ -10,6 +10,7 @@ public class RadMenjacnice implements menjacnicainterfejs {
 
 	public void dodavanjeValute(String datum, String naziv, int srednjiKurs, int prodajniKurs, int kupovniKurs) {
 		Kurs valuta = new Kurs();
+		
 		valuta.setNaziv(naziv);
 		valuta.setDatum(datum);
 		valuta.setKupovniKurs(kupovniKurs);
